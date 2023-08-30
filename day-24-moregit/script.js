@@ -44,3 +44,4 @@ GIT CHECKOUT - git checkout <branchName>
 --> Switch to that branch (puts you in that branch (will go green and *))
 
 GIT PUSH UPSTREAM - git push -u origin <branchName>
+*/
