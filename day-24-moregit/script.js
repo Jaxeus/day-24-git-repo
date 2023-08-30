@@ -44,4 +44,14 @@ GIT CHECKOUT - git checkout <branchName>
 --> Switch to that branch (puts you in that branch (will go green and *))
 
 GIT PUSH UPSTREAM - git push -u origin <branchName>
+
+GIT LOG - git log
+--> Shows us a log of all of our commits
+
+GIT MERGE - 
+--> Merges two branches back into one 
+  --> Checkout into the main YOU WANT TO MERGE INTO (git checkout main etc.)
+  --> git merge <branch-name-> (name of the one you want merging with the main)
+* Merge often, because if you're merging monthly and making a lot of changes, you'll run into many conflicts
+
 */
