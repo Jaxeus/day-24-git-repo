@@ -52,6 +52,15 @@ GIT MERGE -
 --> Merges two branches back into one 
   --> Checkout into the main YOU WANT TO MERGE INTO (git checkout main etc.)
   --> git merge <branch-name-> (name of the one you want merging with the main)
+  --> git push
 * Merge often, because if you're merging monthly and making a lot of changes, you'll run into many conflicts
+
+GIT REVERT - git revert
+--> It doesn't remove history, it just undoes the changes of the most recent commit and makes a new commit with the previous updates - therefore it's safe
+
+
+*If you accidentally included a password in a commit, you would probably need to rewrite history (git reset or something), but if you make a mistake you could be worse off
+
+***If you get stuck randomly, try hitting 'q', or close browser if that doesn't work
 
 */
