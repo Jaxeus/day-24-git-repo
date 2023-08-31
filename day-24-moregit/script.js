@@ -57,10 +57,14 @@ GIT MERGE -
 
 GIT REVERT - git revert
 --> It doesn't remove history, it just undoes the changes of the most recent commit and makes a new commit with the previous updates - therefore it's safe
-
+  --> git log (or git log --oneline)
+  --> git revert <commitID>
+  --> (you will get a revert message in VS code) git log (to see changes)
 
 *If you accidentally included a password in a commit, you would probably need to rewrite history (git reset or something), but if you make a mistake you could be worse off
 
 ***If you get stuck randomly, try hitting 'q', or close browser if that doesn't work
+
+https://education.github.com/git-cheat-sheet-education.pdf
 
 */
